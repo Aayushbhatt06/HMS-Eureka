@@ -9,6 +9,7 @@ spring:
             allowedOrigins:
               - "http://localhost:5173"
               - "https://hospital-management-system-lilac-theta.vercel.app"
+              - "https://hms-eureka.vercel.app"
             allowedMethods:
               - GET
               - POST
