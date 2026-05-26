@@ -1,0 +1,23 @@
+# Root gitignore
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+*.log
+out/
+
+# Frontend builds/deps (in case they are not covered)
+Frontend/node_modules/
+Frontend/dist/
+Frontend/dist-ssr/
+Frontend/.env
+Frontend/.env.*
+Frontend/.env.local
+
+# Backend builds/deps
+
+
+# Application properties
+**/application-dev.properties
